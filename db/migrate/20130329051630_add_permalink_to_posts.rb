@@ -1,7 +1,4 @@
 class AddPermalinkToPosts < ActiveRecord::Migration
-  class Post < ActiveRecord::Base
-  end
-
   def up
     add_column :posts, :permalink, :string
     generate_permalinks

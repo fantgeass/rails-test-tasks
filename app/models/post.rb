@@ -4,13 +4,13 @@ class Post < ActiveRecord::Base
 
   def self.get_unique_permalink(string)
     i = 2
-    pl = string
-    while exists?(permalink: pl)
-      pl = "#{string}_#{i}"
+    permalink = string
+    while exists?(permalink: permalink)
+      permalink = "#{string}_#{i}"
       i += 1
     end
 
-    return pl
+    return permalink
   end
 
   def set_permalink_from_title
