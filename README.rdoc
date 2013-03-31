@@ -7,6 +7,7 @@ Migration: https://github.com/fantgeass/rails-test-tasks/blob/master/db/migrate/
 Spec: https://github.com/fantgeass/rails-test-tasks/blob/master/spec/models/post_spec.rb
 
 2. Luhn algorithm
+
 Helper: https://github.com/fantgeass/rails-test-tasks/blob/master/app/helpers/luhn_helper.rb
 Spec: https://github.com/fantgeass/rails-test-tasks/blob/master/spec/helpers/luhn_helper_spec.rb
 
@@ -14,5 +15,5 @@ Spec: https://github.com/fantgeass/rails-test-tasks/blob/master/spec/helpers/luh
 3. Payments
 
 Model: https://github.com/fantgeass/rails-test-tasks/blob/master/app/models/payment.rb
-Spec: https://github.com/fantgeass/rails-test-tasks/blob/master/spec/models/payment_spec.rb
+Spec: https://github.com/fantgeass/rails-test-tasks/blob/master/spec/models/payment_spec.rb   
 
